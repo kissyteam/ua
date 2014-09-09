@@ -1,5 +1,4 @@
-ua
-===========
+# ua
 
 ua detector
 
