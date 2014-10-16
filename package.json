@@ -1,6 +1,6 @@
 {
     "name": "modulex-ua",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "author": "yiminghe <yiminghe@gmail.com>",
     "engines": {
         "node": "~0.10"
@@ -48,12 +48,14 @@
         "node-jscover-handler": "^1.0.3",
         "precommit-hook": "^1.0.7",
         "serve-index": "^1.1.6",
+        "gulp-wrapper": "^0.1.5",
         "serve-static": "^1.5.3"
     },
     "precommit": [
         "lint"
     ],
     "scripts": {
+    "publish": "gulp tag",
         "lint": "gulp lint",
         "browser-test": "mocha-phantomjs http://localhost:8006/tests/runner.html",
         "browser-test-build": "mocha-phantomjs http://localhost:8006/tests/runner.html?build",

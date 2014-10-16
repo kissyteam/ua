@@ -1,4 +1,9 @@
 /*
+Copyright 2014, modulex-ua@1.0.2
+MIT Licensed
+build time: Thu, 16 Oct 2014 03:32:38 GMT
+*/
+/*
 combined modules:
 ua
 */
@@ -63,6 +68,7 @@ function getDescriptorFromUserAgent(ua) {
      * @singleton
      */
     var UA = {
+        version: '1.0.2',
         /**
          * webkit version
          * @type undef|Number
