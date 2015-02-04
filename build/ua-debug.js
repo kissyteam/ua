@@ -1,7 +1,7 @@
 /*
-Copyright 2014, modulex-ua@1.0.3
+Copyright 2015, modulex-ua@1.0.3
 MIT Licensed
-build time: Thu, 16 Oct 2014 03:53:49 GMT
+build time: Wed, 04 Feb 2015 07:00:03 GMT
 */
 /*
 combined modules:
@@ -235,7 +235,7 @@ function getDescriptorFromUserAgent(ua) {
     } else {
         // WebKit
         // https://github.com/kissyteam/kissy/issues/545
-        if (((m = ua.match(/AppleWebKit\/([\d.]*)/)) || (m = ua.match(/Safari\/([\d.]*)/))) && m[1]) {
+        if (((m = ua.match(/AppleWebKit\/*\s*([\d.]*)/)) || (m = ua.match(/Safari\/([\d.]*)/))) && m[1]) {
             UA[core = 'webkit'] = numberify(m[1]);
 
             if ((m = ua.match(/OPR\/(\d+\.\d+)/)) && m[1]) {
@@ -418,4 +418,5 @@ if (documentElement) {
  同时并非是某个特性探测可以解决时，用浏览器嗅探反而能带来代码的简洁，同时也也不会有什么后患。总之，一切
  皆权衡。
  - UA.ie && UA.ie < 8 并不意味着浏览器就不是 IE8, 有可能是 IE8 的兼容模式。进一步的判断需要使用 documentMode.
- */});
+ */
+});
