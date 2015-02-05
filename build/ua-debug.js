@@ -1,8 +1,4 @@
-/*
-Copyright 2015, modulex-ua@1.0.3
-MIT Licensed
-build time: Wed, 04 Feb 2015 07:00:03 GMT
-*/
+//! Copyright 2015, modulex-ua@1.0.3 MIT Licensed, build time: Thu, 05 Feb 2015 06:52:06 GMT 
 /*
 combined modules:
 ua
