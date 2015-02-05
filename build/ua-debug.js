@@ -1,4 +1,4 @@
-//! Copyright 2015, modulex-ua@1.0.3 MIT Licensed, build time: Thu, 05 Feb 2015 06:52:06 GMT 
+//! Copyright 2015, kissy-ua@1.0.3 MIT Licensed, build time: Thu, 05 Feb 2015 06:53:08 GMT 
 /*
 combined modules:
 ua
