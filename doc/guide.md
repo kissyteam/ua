@@ -12,5 +12,6 @@
 
 KISSY.use(['ua'], function(S, UA){
 	alert('浏览器类型为：' + UA.shell);
+	alert('浏览器版本为：' + UA[UA.shell]);
 });
 ```
