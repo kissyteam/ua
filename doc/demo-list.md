@@ -1,0 +1,1 @@
+1. [判断浏览器类型及版本号](http://runjs.cn/code/ufm4hltl)
